@@ -1,4 +1,19 @@
-*{
-    margin: 15px;
-    padding: 20px;
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --bg-dark-color: #0A0A0A;
+    --bg-color: #F3F3F3;
+
+    --primary-color: #3FD763;
+    --primary-dark-color: #9D4CCB;
+
+    --secundary-color: #66C77D;
+    --secundary-dark-color: #7F3DC9;
+
+    --font-family: 'Open Sans', sans-serif;
+    --font-size: 22px;
+    --font-weight: bold;
 }

@@ -1,5 +1,5 @@
 import "./style.css";
-import "../global.css"
+import "../global.css";
 
 export function Sobre() {
   return (
@@ -7,24 +7,27 @@ export function Sobre() {
       <h1>Hello World!</h1>
 
       <div className="descricao">
-        <h1>Desenvolvedor de Software</h1>{" "}
-        <h2>
-          {" "}
-          com mais de 2 anos de atuação no mercado, com sólida formação
-          acadêmica e experiências práticas como Estagiário em Desenvolvimento
-          Full-stack.
-        </h2>{" "}
+        <h1>
+          Desenvolvedor de Software, com mais de 2 anos de atuação no mercado.
+        </h1>
+
         <h2>
           Proficiente em HTML, CSS, JavaScript, React, Node, C++, Git, GitHub, e
           com familiaridade em Python, PHP, Java, SQL Server, MongoDB, IA e IoT,
           além de práticas ágeis como o Scrum e Kanban.
-        </h2>{" "}
+        </h2>
+
+        <br></br>
+
         <h2>
-          Comprometido com o aprendizado contínuo, atualmente focado em
-          aprimorar habilidades em Inglês, JavaScript (React e Node), HTML, CSS
-          e aprofundando-se em Banco de Dados (MongoDB e SQL Server).
-          Determinado a contribuir ativamente no cenário tecnológico, combinando
-          conhecimento teórico e prática.
+          Formado em Engenharia de Software pela Universidade PUC Campinas e
+          atualmente aprofundando minhas habilidades em Inglês e em Banco de
+          Dados (MongoDB e SQL Server).
+        </h2>
+        <br></br>
+        <h2>
+          Além disso, possuo experiências práticas como Estagiário em
+          Desenvolvimento Full-stack.
         </h2>
       </div>
 
@@ -32,7 +35,8 @@ export function Sobre() {
         <h1>Minhas Experiencias</h1>
         <div className="hagens">
           <h1>Estágiario Full Stack </h1>
-          <h3>Hagens - 09/2022 - 12/2023</h3>
+          <h3>Hagens</h3>
+          <h3>Setembro de 2022 - Dezembro de 2023</h3>
           <h3>
             Empresa de marketing que une comunicação, tecnologia e performance
           </h3>
@@ -51,47 +55,45 @@ export function Sobre() {
 
         <div className="ntic">
           <h1>Estágiario Full Stack</h1>
-          <h3>PUC NTIC</h3>
+          <h3>
+            Núcleo de Tecnologia da Informação e Comunicação da PUC Campinas
+          </h3>
+          <h3>Fevereiro de 2020 - Outubro de 2020</h3>
           <li>Migração e modificação de dados em banco de dados</li>
           <li>Desenvolvimento full stack para projetos do núcleo</li>
           <li>Manutenção de projetos internos e de parceiros</li>
-          <li>Competência em tecnologias como SQL, HTML, CSS, Java e JavaScript</li>
+          <li>
+            Competência em tecnologias como SQL, HTML, CSS, Java e JavaScript
+          </li>
         </div>
-
+{/* 
         <div className="resumo">
           <h1>Minha trajetoria</h1>
           <h2>
-            Desenvolvedor de Software com mais de 2 anos de atuação no
-            mercado,com sólida formação acadêmica e experiências práticas como
+           
           </h2>
 
           <h3>
-            Estagiário em Desenvolvimento Full-stack. Proficiente em HTML, CSS,
-            JavaScript, React, Node, C++, Git, GitHub, e com familiaridade em
-            Python, PHP, Java, SQL Server, MongoDB, IA e IoT, além de práticas
-            ágeis como o Scrum e Kanban.
+            
           </h3>
           <h3>
-            Comprometido com o aprendizado contínuo, atualmente focado em
-            aprimorar habilidades em Inglês, JavaScript (React e Node), HTML,
-            CSS e aprofundando-se em Banco de Dados (MongoDB e SQL Server).
+            
           </h3>
           <h3>
-            Determinado a contribuir ativamente no cenário tecnológico,
-            combinando conhecimento teórico e prática.
+            
           </h3>
-        </div>
+        </div> */}
+      </div>
 
-        <div className="links">
-          <h1>Meus links</h1>
-          <h2>
-            <a href="http://linkedin.com/in/andrezambroni" target="_blank">
-              Linkedin
-            </a>
-          </h2>
-          <h2>GitHub</h2>
-          <h2>Outros</h2>
-        </div>
+      <div className="links">
+        <h1>Meus links</h1>
+        <h2>
+          <a href="http://linkedin.com/in/andrezambroni" target="_blank">
+            Linkedin
+          </a>
+        </h2>
+        <h2>GitHub</h2>
+        <h2>Outros</h2>
       </div>
     </div>
   );
