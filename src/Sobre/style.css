@@ -26,6 +26,30 @@
     margin: 7px 0 7px 0;
 
     border: 1px solid var(--primary-color);
+
+   
+}
+
+.apresentacao{
+    height: 100vh;
+
+    
+}
+
+.apresentação,  h1 , h2{
+    font-size: 50px;
+    border: 1px solid red;
+    max-width: 50%;
+}
+
+.princial{
+    display: flex;
+    flex-direction: row;
+    border: 1px solid black;
+}
+
+.imagem{
+    border: 1px solid #7F3DC9
 }
 
 .descricao {

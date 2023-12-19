@@ -4,13 +4,18 @@ import "../global.css";
 export function Sobre() {
   return (
     <div className="sobre">
-      <h1>Hello World!</h1>
+      <div className="principal">
+        <div className="apresentacao">
+          <h1>Hello World!</h1>
+          <h2>
+            Sou André Zambroni! Desenvolvedor de Software, com mais de 2 anos de
+            atuação no mercado.{" "}
+          </h2>
+        </div>
+        <div className="imagem">imagem</div>
+      </div>
 
       <div className="descricao">
-        <h1>
-          Desenvolvedor de Software, com mais de 2 anos de atuação no mercado.
-        </h1>
-
         <h2>
           Proficiente em HTML, CSS, JavaScript, React, Node, C++, Git, GitHub, e
           com familiaridade em Python, PHP, Java, SQL Server, MongoDB, IA e IoT,
@@ -66,31 +71,12 @@ export function Sobre() {
             Competência em tecnologias como SQL, HTML, CSS, Java e JavaScript
           </li>
         </div>
-{/* 
-        <div className="resumo">
-          <h1>Minha trajetoria</h1>
-          <h2>
-           
-          </h2>
-
-          <h3>
-            
-          </h3>
-          <h3>
-            
-          </h3>
-          <h3>
-            
-          </h3>
-        </div> */}
       </div>
 
       <div className="links">
         <h1>Meus links</h1>
         <h2>
-          <a href="http://linkedin.com/in/andrezambroni" target="_blank">
-            Linkedin
-          </a>
+          <a href="http://linkedin.com/in/andrezambroni">Linkedin</a>
         </h2>
         <h2>GitHub</h2>
         <h2>Outros</h2>
