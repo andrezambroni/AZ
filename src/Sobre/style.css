@@ -1,6 +1,7 @@
 *{
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 :root {
@@ -27,111 +28,50 @@
 
     border: 1px solid var(--primary-color);
 
+    height: 80vh;
+
+    display: flex;
+    
    
 }
 
 .apresentacao{
-    height: 100vh;
-
+    
+    flex-grow: 1;
+    flex-basis: 50%;
     
 }
 
-.apresentação,  h1 , h2{
-    font-size: 50px;
-    border: 1px solid red;
-    max-width: 50%;
+h1{
+    font-size: 100px;
+
+    margin-top: 150px;
+    margin-left: 50px;
+    
 }
 
-.princial{
-    display: flex;
-    flex-direction: row;
-    border: 1px solid black;
+h2{
+    font-size: 50px;
+
+    margin-top: 40px;
+    margin-left: 70px;
 }
+
+h3{
+    font-size: 30px;
+
+    margin-top: 40px ;
+    margin-left: 70px;
+}
+
+
 
 .imagem{
-    border: 1px solid #7F3DC9
-}
-
-.descricao {
-    color: var(--primary-color);
-
-    font-family: var(--font1);
-    font-weight: bold;
-
-    width: 70%;
-
-    margin-bottom: 20px;
-
-    border: 1px solid var(--primary-color);
-}
-
-.descricao h2{
-    margin: 10px;
-}
-
-.exp {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 20px;
-    border: 1px solid var(--primary-color);
-    margin: 1px;
-}
-
-.hagens,
-.ntic {
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 10px;
-}
-
-.exp h1 {
-    grid-column: 1 / -1;
-    color: var(--primary-color);
-    font-family: var(--font-family);
-    font-weight: var(--font-weight);
-
+    border: 1px solid #7F3DC9;
     
-    padding: 0;
-}
 
-.exp h2,
-h3 {
-    font-weight: normal;
-    margin: 0px;
-   
+    flex-grow: 1;
+    flex-basis: 50%;
     
 }
 
-.hagens, .ntic h3, li{
-   margin-left: 15px;
-}
-
-.links {
-    display: flex;
-    border: 1px solid var(--primary-color);
-    align-items: center;
-   
-    
-}
-
-.links .h1 {
-
-    height: 40px;
-    width: 180px;
-
-    border: 1px solid var(--primary-color);
-}
-
-.links h2{
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-    justify-content: space-between;
-    align-items: center;
-
-    margin: 20px;
-    
-    width: 100px;
-    height: 40px;
-
-    border: 1px solid var(--primary-color);
-}

@@ -1,5 +1,5 @@
 import "./style.css";
-import "../global.css";
+
 import LogoAZ from "../svg/logoAZ.js";
 
 export function Header() {

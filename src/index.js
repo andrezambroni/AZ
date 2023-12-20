@@ -6,6 +6,8 @@ import "./global.css";
 import { Header } from "./Header/index.js";
 import { Sobre } from "./Sobre/index.js";
 import { Habilidades } from "./Habilidades/index.js";
+import { Descricao } from "./Descrição/index.js";
+import { Experiencias } from "./Experiencia/index.js";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -13,6 +15,8 @@ root.render(
     <Header />
     <Sobre />
     <Habilidades/>
+    <Descricao/>
+    <Experiencias/>
 
     
   </React.StrictMode>
