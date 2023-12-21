@@ -62,11 +62,13 @@ h2{
     font-family: var(--font1);
     font-weight: bold;
 
-    width: 70%;
+    width: 99%;
 
     margin-bottom: 20px;
 
     border: 1px solid var(--primary-color);
+
+    height: 50vh;
 }
 
 .descricao  {

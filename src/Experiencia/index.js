@@ -43,6 +43,7 @@ export function Experiencias() {
           </li>
         </ul>
       </div>
+
     </div>
   );
 }
