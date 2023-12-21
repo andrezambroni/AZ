@@ -5,14 +5,14 @@ export function Experiencias() {
     <div className="exp">
       <div className="minhaexp">Minha experiencia</div>
 
-      <div className="Hagens">
+      <div className="hagens">
         <h2>Estágiario Full Stack </h2>
-        <h3>Hagens</h3>
-        <h3>Setembro de 2022 - Dezembro de 2023</h3>
+        <h3>Hagens | 09/22 - 09/23</h3>
+        <h3></h3>
         <h3>
           Empresa de marketing que une comunicação, tecnologia e performance
         </h3>
-
+        <hr></hr>
         <ul>
           <li>Manutenção de projetos, sites e campanhas</li>
           <li>
@@ -31,9 +31,9 @@ export function Experiencias() {
       <div className="ntic">
         <h2>Estágiario Full Stack</h2>
         <h3>
-          Núcleo de Tecnologia da Informação e Comunicação da PUC Campinas
+          Núcleo de Tecnologia da Informação e Comunicação da PUC Campinas | 02/20 - 11/20
         </h3>
-        <h3>Fevereiro de 2020 - Outubro de 2020</h3>
+        <hr></hr>
         <ul>
           <li>Migração e modificação de dados em banco de dados</li>
           <li>Desenvolvimento full stack para projetos do núcleo</li>
